@@ -1,0 +1,75 @@
+# Runs the game's automated checks on every push and pull request.
+# Each check exits with a non-zero code when anything fails, so a red mark here
+# means a real regression. Full logs are attached to every run as "test-logs".
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  GODOT_RELEASE: 4.5.2-stable
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    defaults:
+      run:
+        shell: bash   # with pipefail, so "| tee" keeps the test's exit code
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Godot and a virtual display
+        run: |
+          set -e
+          sudo apt-get update -qq && sudo apt-get install -y -qq xvfb libgl1 libglu1-mesa > /dev/null
+          curl -sSL -o godot.zip https://github.com/godotengine/godot-builds/releases/download/${GODOT_RELEASE}/Godot_v${GODOT_RELEASE}_linux.x86_64.zip
+          unzip -q godot.zip && mv Godot_v${GODOT_RELEASE}_linux.x86_64 godot && chmod +x godot
+          mkdir -p logs
+
+      - name: Import the project
+        run: ./godot --headless --path . --import > logs/import.txt 2>&1 || true
+
+      - name: Levels - every level wins with 3 stars (100 levels)
+        run: timeout 900 ./godot --headless --path . -- --verify 2>&1 | tee logs/verify.txt
+
+      - name: Opening - covered cargo fair for every hidden arrangement
+        if: success() || failure()
+        run: timeout 900 ./godot --headless --path . --script res://tools/verify_opening.gd 2>&1 | tee logs/opening.txt
+
+      - name: Rules - attempts, undo refunds, bought spots, resume, hints
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1600 -- --bugtest 2>&1 | tee logs/bugtest.txt
+
+      - name: Exploits - undo coin farming, stale resume
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1600 -- --trust 2>&1 | tee logs/trust.txt
+
+      - name: Interface - menus, back button, pause, settings
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1600 -- --uitest 2>&1 | tee logs/uitest.txt
+
+      - name: Ads - placements and pacing (simulated ads)
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1600 -- --adtest 2>&1 | tee logs/adtest.txt
+
+      - name: Tap picking - every stack picks correctly
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1600 -- --pickcheck 2>&1 | tee logs/pickcheck.txt
+
+      - name: Ship departures - timing, undo and restart mid-departure
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1280 res://tools/verify_dispatch.tscn 2>&1 | tee logs/dispatch.txt
+
+      - name: Back-to-back play - 15 levels, memory and animations
+        if: success() || failure()
+        run: timeout 1500 xvfb-run -a ./godot --path . --resolution 720x1280 -- --chaintest --level=1 --count=15 --after=0.05 2>&1 | tee logs/chaintest.txt
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-logs
+          path: logs/

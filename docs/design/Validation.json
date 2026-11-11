@@ -1,0 +1,72 @@
+{
+  "version": "Solstice Harbour V3",
+  "levels_total": 100,
+  "three_star_solutions_verified": 100,
+  "covered_colour_variants_verified": 8,
+  "dispatch_runtime": {
+    "levels": [
+      3,
+      10,
+      20,
+      100
+    ],
+    "reduced_motion_level": 3,
+    "launch_events": 30,
+    "failures": 0,
+    "undo_during_chain": "pass",
+    "restart_during_win": "pass",
+    "no_scripts_errors_in_final_run": true
+  },
+  "ground_overlapping_wide_faces": 0,
+  "unchanged_vs_v2": {
+    "levels": "21\u2013100",
+    "core_scripts": [
+      "game_model.gd",
+      "solver.gd",
+      "save.gd"
+    ],
+    "glb_models": 23
+  },
+  "web": {
+    "browser_first_level_three_stars": "pass",
+    "portrait_canvas": "pass",
+    "bundle_sizes": "pass"
+  },
+  "audio": [
+    {
+      "name": "dispatch_feeder",
+      "duration": 0.48,
+      "peak": 0.5048,
+      "rms": 0.2217
+    },
+    {
+      "name": "dispatch_tanker",
+      "duration": 0.58,
+      "peak": 0.5048,
+      "rms": 0.2296
+    },
+    {
+      "name": "dispatch_coaster",
+      "duration": 0.44,
+      "peak": 0.5048,
+      "rms": 0.2171
+    },
+    {
+      "name": "dispatch_seal",
+      "duration": 0.18,
+      "peak": 0.2595,
+      "rms": 0.0469
+    },
+    {
+      "name": "dispatch_chime",
+      "duration": 0.4,
+      "peak": 0.135,
+      "rms": 0.0342
+    }
+  ],
+  "limits": [
+    "No V3 APK built or physical-phone performance test",
+    "No human difficulty study",
+    "Local environment blocks Godot log/cache writes; known exit resource warnings remain in some tool scenes"
+  ]
+}

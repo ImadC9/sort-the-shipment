@@ -1,0 +1,726 @@
+[
+  {
+    "name": "First Shift",
+    "ships": [
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "buffer": 3,
+    "lesson": "Match a top container to a ship.",
+    "three": 0,
+    "tip": "Tap a stack. Its top box finds the matching ship."
+  },
+  {
+    "name": "Make Room",
+    "ships": [
+      0,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Parking exposes the useful boxes below.",
+    "three": 3,
+    "tip": "No matching ship? A box waits in parking."
+  },
+  {
+    "name": "Chain Reaction",
+    "ships": [
+      0,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Prepare a full next ship before clearing the berth.",
+    "three": 3,
+    "tip": "Park three yellows, then fill a ship."
+  },
+  {
+    "name": "Direct Route",
+    "ships": [
+      0,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "buffer": 3,
+    "lesson": "Use an open berth before spending parking space.",
+    "three": 1
+  },
+  {
+    "name": "Dockside Flow",
+    "ships": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Use both berths while preparing the next colour.",
+    "three": 3
+  },
+  {
+    "name": "Next in Line",
+    "ships": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "stacks": [
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "The next colour can be prepared before a berth clears.",
+    "three": 1
+  },
+  {
+    "name": "Precious Cargo",
+    "ships": [
+      1,
+      0,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        0,
+        32
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Gold is a bonus on the same familiar routing rules.",
+    "three": 1,
+    "tip": "Gold cargo pays extra. The sorting rules stay the same."
+  },
+  {
+    "name": "Leave One Free",
+    "ships": [
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Keep one place available while working below a stack.",
+    "three": 3
+  },
+  {
+    "name": "Two Ways Out",
+    "ships": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Find a useful exit from either of two columns.",
+    "three": 3
+  },
+  {
+    "name": "Harbour Rhythm",
+    "ships": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        3,
+        1,
+        2
+      ]
+    ],
+    "buffer": 5,
+    "lesson": "Introduce the fourth colour without longer stacks.",
+    "three": 4
+  },
+  {
+    "name": "Fresh Tide",
+    "ships": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "A shorter breather that rewards reading the queue.",
+    "three": 3
+  },
+  {
+    "name": "One Step Ahead",
+    "ships": [
+      0,
+      1,
+      2,
+      0,
+      3
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Choose a column that prepares the next two ships.",
+    "three": 3
+  },
+  {
+    "name": "Under Wraps",
+    "ships": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        16,
+        2,
+        1
+      ],
+      [
+        18,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Learn a reveal in a small forgiving layout.",
+    "three": 3,
+    "tip": "Covered boxes reveal when they reach the top."
+  },
+  {
+    "name": "Read the Manifest",
+    "ships": [
+      0,
+      1,
+      2,
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        1,
+        18,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        17,
+        2,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Use the covered-colour counts without gambling.",
+    "three": 3
+  },
+  {
+    "name": "Clear Water",
+    "ships": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        0,
+        1
+      ]
+    ],
+    "buffer": 5,
+    "lesson": "A visible-colour breather before customs.",
+    "three": 3
+  },
+  {
+    "name": "Customs Gate",
+    "ships": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        0,
+        0,
+        257
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Clear one ship to open the blocked column.",
+    "three": 3,
+    "tip": "A padlock opens after the shown number of ships leave."
+  },
+  {
+    "name": "Open the Channel",
+    "ships": [
+      0,
+      1,
+      2,
+      1,
+      0,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        258,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        1
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Use an unlocked route while the next route opens.",
+    "three": 3
+  },
+  {
+    "name": "Two Gates",
+    "ships": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        513,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        258,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        2,
+        0,
+        1
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Sequence two customs releases with different thresholds.",
+    "three": 3
+  },
+  {
+    "name": "Ahead of the Tide",
+    "ships": [
+      0,
+      1,
+      2,
+      0,
+      3
+    ],
+    "stacks": [
+      [
+        256,
+        18,
+        0,
+        1
+      ],
+      [
+        1,
+        19,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        1,
+        0
+      ]
+    ],
+    "buffer": 4,
+    "lesson": "Combine one reveal with one predictable release.",
+    "three": 3
+  },
+  {
+    "name": "Harbour Master",
+    "ships": [
+      3,
+      1,
+      2,
+      1,
+      3,
+      0,
+      2,
+      0
+    ],
+    "stacks": [
+      [
+        18,
+        1,
+        33,
+        0,
+        3
+      ],
+      [
+        3,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        0,
+        19,
+        0,
+        2
+      ],
+      [
+        256,
+        3,
+        3,
+        0,
+        2
+      ]
+    ],
+    "buffer": 5,
+    "lesson": "Put parking, preparation, reveals and customs together.",
+    "three": 3
+  }
+]

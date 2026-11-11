@@ -1,0 +1,27 @@
+# Godot
+.godot/
+*.import.tmp
+# build outputs
+build/
+android/build/build/
+android/build/.gradle/
+android/build/libs/release/*.aar.tmp
+# never commit signing keys or passwords
+*.keystore
+*.jks
+*.p12
+export_credentials.cfg
+# Android Gradle template: installed by tools/android_setup.py (its engine libraries exceed GitHub's file limit)
+/android/
+# AdMob plugin: iOS binaries and download cache (the game ships on Android only)
+addons/admob/ios/bin/
+addons/admob/downloads/
+# release files go to GitHub Releases, not the repository
+*.apk
+*.aab
+*.idsig
+# local caches and Blender working files
+__pycache__/
+art_source/
+art_previews/
+*.blend1

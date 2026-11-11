@@ -1,0 +1,370 @@
+[
+  {
+    "name": "container",
+    "triangles": 4548,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.5,
+      0.0,
+      -0.95
+    ],
+    "bounds_max": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "bytes": 118516
+  },
+  {
+    "name": "container_lod",
+    "triangles": 532,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.5,
+      0.0,
+      -0.95
+    ],
+    "bounds_max": [
+      0.5,
+      0.8,
+      0.95
+    ],
+    "bytes": 31636
+  },
+  {
+    "name": "ship_feeder",
+    "triangles": 9412,
+    "surfaces": 5,
+    "bounds_min": [
+      -2.64,
+      -0.64,
+      -1.252
+    ],
+    "bounds_max": [
+      2.6,
+      3.52,
+      1.252
+    ],
+    "bytes": 273260
+  },
+  {
+    "name": "ship_tanker",
+    "triangles": 7992,
+    "surfaces": 5,
+    "bounds_min": [
+      -2.64,
+      -0.64,
+      -1.252
+    ],
+    "bounds_max": [
+      2.6,
+      3.65,
+      1.252
+    ],
+    "bytes": 243340
+  },
+  {
+    "name": "ship_coaster",
+    "triangles": 8396,
+    "surfaces": 5,
+    "bounds_min": [
+      -2.713,
+      -0.64,
+      -1.252
+    ],
+    "bounds_max": [
+      2.6,
+      3.7,
+      1.252
+    ],
+    "bytes": 248604
+  },
+  {
+    "name": "crane",
+    "triangles": 4992,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.56,
+      0.00734,
+      -8.535
+    ],
+    "bounds_max": [
+      1.57999,
+      9.965,
+      3.41237
+    ],
+    "bytes": 172792
+  },
+  {
+    "name": "crane_gold",
+    "triangles": 4992,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.56,
+      0.00734,
+      -8.535
+    ],
+    "bounds_max": [
+      1.57999,
+      9.965,
+      3.41237
+    ],
+    "bytes": 173660
+  },
+  {
+    "name": "warehouse_a",
+    "triangles": 2924,
+    "surfaces": 1,
+    "bounds_min": [
+      -3.725,
+      -0.005,
+      -3.125
+    ],
+    "bounds_max": [
+      3.725,
+      3.6185,
+      2.625
+    ],
+    "bytes": 95628
+  },
+  {
+    "name": "warehouse_b",
+    "triangles": 2924,
+    "surfaces": 1,
+    "bounds_min": [
+      -3.725,
+      -0.005,
+      -3.125
+    ],
+    "bounds_max": [
+      3.725,
+      3.6185,
+      2.625
+    ],
+    "bytes": 95628
+  },
+  {
+    "name": "house_a",
+    "triangles": 1504,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.131,
+      0.0,
+      -1.3
+    ],
+    "bounds_max": [
+      1.131,
+      2.1975,
+      1.0075
+    ],
+    "bytes": 48416
+  },
+  {
+    "name": "house_b",
+    "triangles": 1923,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.331,
+      0.0,
+      -1.635
+    ],
+    "bounds_max": [
+      1.331,
+      3.1,
+      1.1075
+    ],
+    "bytes": 57820
+  },
+  {
+    "name": "house_c",
+    "triangles": 1612,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.981,
+      0.0,
+      -1.25
+    ],
+    "bounds_max": [
+      0.981,
+      2.5975,
+      0.9575
+    ],
+    "bytes": 51392
+  },
+  {
+    "name": "house_d",
+    "triangles": 1796,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.431,
+      0.0,
+      -1.5
+    ],
+    "bounds_max": [
+      1.431,
+      2.185,
+      1.2075
+    ],
+    "bytes": 55056
+  },
+  {
+    "name": "tree_round",
+    "triangles": 348,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.63189,
+      0.0,
+      -0.5
+    ],
+    "bounds_max": [
+      0.64287,
+      2.02,
+      0.5
+    ],
+    "bytes": 9640
+  },
+  {
+    "name": "cypress",
+    "triangles": 188,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.29483,
+      0.0,
+      -0.3
+    ],
+    "bounds_max": [
+      0.29483,
+      2.25,
+      0.3
+    ],
+    "bytes": 6488
+  },
+  {
+    "name": "palm",
+    "triangles": 1176,
+    "surfaces": 1,
+    "bounds_min": [
+      -1.18832,
+      -0.00119,
+      -1.55704
+    ],
+    "bounds_max": [
+      2.15,
+      3.26634,
+      1.69491
+    ],
+    "bytes": 45416
+  },
+  {
+    "name": "car_red",
+    "triangles": 1592,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.486,
+      0.0,
+      -0.88
+    ],
+    "bounds_max": [
+      0.486,
+      0.7675,
+      0.8625
+    ],
+    "bytes": 49908
+  },
+  {
+    "name": "car_blue",
+    "triangles": 1592,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.486,
+      0.0,
+      -0.88
+    ],
+    "bounds_max": [
+      0.486,
+      0.7675,
+      0.8625
+    ],
+    "bytes": 49912
+  },
+  {
+    "name": "tractor",
+    "triangles": 2444,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.546,
+      0.0,
+      -2.1275
+    ],
+    "bounds_max": [
+      0.546,
+      1.38,
+      1.71
+    ],
+    "bytes": 79056
+  },
+  {
+    "name": "light_mast",
+    "triangles": 632,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.725,
+      0.0,
+      -0.316
+    ],
+    "bounds_max": [
+      0.725,
+      8.165,
+      0.29
+    ],
+    "bytes": 21012
+  },
+  {
+    "name": "lighthouse",
+    "triangles": 1406,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.51,
+      0.0,
+      -0.51
+    ],
+    "bounds_max": [
+      0.51,
+      5.34,
+      0.51
+    ],
+    "bytes": 61532
+  },
+  {
+    "name": "navigation_buoy",
+    "triangles": 396,
+    "surfaces": 2,
+    "bounds_min": [
+      -0.29,
+      0.0,
+      -0.29
+    ],
+    "bounds_max": [
+      0.29,
+      0.8175,
+      0.29
+    ],
+    "bytes": 17792
+  },
+  {
+    "name": "mooring_bollard",
+    "triangles": 344,
+    "surfaces": 1,
+    "bounds_min": [
+      -0.22,
+      0.0,
+      -0.17
+    ],
+    "bounds_max": [
+      0.22,
+      0.349,
+      0.17
+    ],
+    "bytes": 10392
+  }
+]

@@ -1,0 +1,9618 @@
+[
+  {
+    "berths": 2,
+    "buffer": 3.0,
+    "cap": 3,
+    "chain_possible": false,
+    "colors": 2,
+    "hand": true,
+    "id": 1,
+    "lesson": "Match a top container to a ship.",
+    "min_peak": 0,
+    "name": "First Shift",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 0,
+      "two": 1
+    },
+    "tip": "Tap a stack. Its top box finds the matching ship."
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": false,
+    "colors": 3,
+    "hand": true,
+    "id": 2,
+    "lesson": "Parking exposes the useful boxes below.",
+    "min_peak": 2,
+    "name": "Make Room",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        0.0,
+        2.0
+      ],
+      [
+        1.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    },
+    "tip": "No matching ship? A box waits in parking."
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 3,
+    "lesson": "Prepare a full next ship before clearing the berth.",
+    "min_peak": 3,
+    "name": "Chain Reaction",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        1.0,
+        0.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    },
+    "tip": "Park three yellows, then fill a ship."
+  },
+  {
+    "berths": 2,
+    "buffer": 3.0,
+    "cap": 3,
+    "chain_possible": false,
+    "colors": 3,
+    "hand": true,
+    "id": 4,
+    "lesson": "Use an open berth before spending parking space.",
+    "min_peak": 0,
+    "name": "Direct Route",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "solution": [
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        0.0,
+        2.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 1,
+      "two": 2
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 5,
+    "lesson": "Use both berths while preparing the next colour.",
+    "min_peak": 0,
+    "name": "Dockside Flow",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      0,
+      2,
+      2,
+      3,
+      3,
+      0,
+      1,
+      0,
+      1,
+      3,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": false,
+    "colors": 3,
+    "hand": true,
+    "id": 6,
+    "lesson": "The next colour can be prepared before a berth clears.",
+    "min_peak": 0,
+    "name": "Next in Line",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 1,
+      "two": 2
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": false,
+    "colors": 3,
+    "hand": true,
+    "id": 7,
+    "lesson": "Gold is a bonus on the same familiar routing rules.",
+    "min_peak": 0,
+    "name": "Precious Cargo",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      1.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      0,
+      0,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        32.0
+      ]
+    ],
+    "stars": {
+      "three": 1,
+      "two": 2
+    },
+    "tip": "Gold cargo pays extra. The sorting rules stay the same."
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 8,
+    "lesson": "Keep one place available while working below a stack.",
+    "min_peak": 0,
+    "name": "Leave One Free",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 9,
+    "lesson": "Find a useful exit from either of two columns.",
+    "min_peak": 1,
+    "name": "Two Ways Out",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      1.0,
+      0.0,
+      2.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 10,
+    "lesson": "Introduce the fourth colour without longer stacks.",
+    "min_peak": 2,
+    "name": "Harbour Rhythm",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "solution": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0,
+        0.0
+      ],
+      [
+        2.0,
+        0.0,
+        3.0
+      ],
+      [
+        3.0,
+        1.0,
+        2.0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 11,
+    "lesson": "A shorter breather that rewards reading the queue.",
+    "min_peak": 0,
+    "name": "Fresh Tide",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      0,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        2.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 12,
+    "lesson": "Choose a column that prepares the next two ships.",
+    "min_peak": 1,
+    "name": "One Step Ahead",
+    "opening_revision": 3,
+    "random_rate": 0.983,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      3.0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        3.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        3.0,
+        0.0
+      ],
+      [
+        3.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 13,
+    "lesson": "Learn a reveal in a small forgiving layout.",
+    "min_peak": 0,
+    "name": "Under Wraps",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      0,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        16.0,
+        2.0,
+        1.0
+      ],
+      [
+        18.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    },
+    "tip": "Covered boxes reveal when they reach the top."
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 14,
+    "lesson": "Use the covered-colour counts without gambling.",
+    "min_peak": 0,
+    "name": "Read the Manifest",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      1,
+      2,
+      3,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        1.0,
+        18.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        17.0,
+        2.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 15,
+    "lesson": "A visible-colour breather before customs.",
+    "min_peak": 1,
+    "name": "Clear Water",
+    "opening_revision": 3,
+    "random_rate": 0.9,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      0.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      2,
+      1,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      1,
+      1,
+      0,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0
+      ],
+      [
+        2.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      [
+        3.0,
+        2.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 16,
+    "lesson": "Clear one ship to open the blocked column.",
+    "min_peak": 1,
+    "name": "Customs Gate",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      1,
+      2,
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        0.0,
+        257.0
+      ],
+      [
+        0.0,
+        2.0,
+        1.0
+      ],
+      [
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    },
+    "tip": "A padlock opens after the shown number of ships leave."
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 3,
+    "hand": true,
+    "id": 17,
+    "lesson": "Use an unlocked route while the next route opens.",
+    "min_peak": 1,
+    "name": "Open the Channel",
+    "opening_revision": 3,
+    "random_rate": 1.0,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      1.0,
+      0.0,
+      2.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        2.0,
+        1.0,
+        2.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        2.0,
+        1.0,
+        0.0
+      ],
+      [
+        258.0,
+        1.0,
+        0.0,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        2.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 18,
+    "lesson": "Sequence two customs releases with different thresholds.",
+    "min_peak": 1,
+    "name": "Two Gates",
+    "opening_revision": 3,
+    "random_rate": 0.882,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      0.0,
+      1.0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      2,
+      1,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      1,
+      1,
+      0,
+      3
+    ],
+    "stacks": [
+      [
+        0.0,
+        513.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        3.0,
+        1.0,
+        0.0
+      ],
+      [
+        258.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      [
+        3.0,
+        2.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 19,
+    "lesson": "Combine one reveal with one predictable release.",
+    "min_peak": 1,
+    "name": "Ahead of the Tide",
+    "opening_revision": 3,
+    "random_rate": 0.98,
+    "ships": [
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      3.0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      2,
+      0,
+      1,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        256.0,
+        18.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        19.0,
+        2.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0,
+        3.0,
+        0.0
+      ],
+      [
+        3.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5.0,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "hand": true,
+    "id": 20,
+    "lesson": "Put parking, preparation, reveals and customs together.",
+    "min_peak": 2,
+    "name": "Harbour Master",
+    "opening_revision": 3,
+    "random_rate": 0.873,
+    "ships": [
+      3.0,
+      1.0,
+      2.0,
+      1.0,
+      3.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      3,
+      4,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        18.0,
+        1.0,
+        33.0,
+        0.0,
+        3.0
+      ],
+      [
+        3.0,
+        2.0,
+        2.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        3.0,
+        2.0,
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        19.0,
+        0.0,
+        2.0
+      ],
+      [
+        256.0,
+        3.0,
+        3.0,
+        0.0,
+        2.0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 21,
+    "min_peak": 3,
+    "name": "Paperwork",
+    "random_rate": 0.88,
+    "ships": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "solution": [
+      0,
+      2,
+      2,
+      2,
+      0,
+      0,
+      3,
+      3,
+      4,
+      3,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        0,
+        2,
+        2,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        1,
+        1,
+        3
+      ],
+      [
+        35,
+        2,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        2,
+        256,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 22,
+    "min_peak": 2,
+    "name": "Seven Seas",
+    "random_rate": 0.59,
+    "ships": [
+      2,
+      1,
+      0,
+      4,
+      0,
+      4,
+      2,
+      1,
+      3,
+      3
+    ],
+    "solution": [
+      1,
+      2,
+      2,
+      2,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      0,
+      4,
+      4,
+      4,
+      3,
+      5,
+      5,
+      3,
+      5,
+      2,
+      2,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        0,
+        4,
+        4,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        1,
+        2,
+        4
+      ],
+      [
+        3,
+        4,
+        32,
+        3,
+        0,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 23,
+    "min_peak": 3,
+    "name": "Night Owl",
+    "random_rate": 0.34,
+    "ships": [
+      3,
+      0,
+      1,
+      2,
+      1,
+      4,
+      3,
+      4,
+      2,
+      0
+    ],
+    "solution": [
+      1,
+      3,
+      4,
+      4,
+      3,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      5,
+      5,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5,
+      2,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        2,
+        2,
+        3,
+        1,
+        4
+      ],
+      [
+        4,
+        1,
+        3,
+        4,
+        3
+      ],
+      [
+        2,
+        35,
+        1,
+        4
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        4,
+        0,
+        2,
+        2,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 24,
+    "min_peak": 2,
+    "name": "Gate Check",
+    "random_rate": 0.28,
+    "robust": true,
+    "ships": [
+      0,
+      3,
+      1,
+      2,
+      3,
+      4,
+      0,
+      1,
+      2,
+      4
+    ],
+    "solution": [
+      0,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      2,
+      4,
+      2,
+      3,
+      2,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      2,
+      1,
+      1,
+      4,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        17,
+        3,
+        17,
+        4,
+        0
+      ],
+      [
+        3,
+        4,
+        1,
+        18,
+        2
+      ],
+      [
+        1,
+        17,
+        16,
+        4,
+        16,
+        3
+      ],
+      [
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        4,
+        19,
+        2,
+        17,
+        36
+      ],
+      [
+        20,
+        19,
+        0,
+        2,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 25,
+    "min_peak": 3,
+    "name": "Sunny Spell",
+    "random_rate": 0.41,
+    "ships": [
+      4,
+      2,
+      4,
+      1,
+      0,
+      3,
+      2,
+      1,
+      3,
+      0
+    ],
+    "solution": [
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      1,
+      1,
+      4,
+      5,
+      1,
+      5,
+      5,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        2,
+        1,
+        2,
+        3,
+        3
+      ],
+      [
+        0,
+        4,
+        1,
+        4,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        4,
+        1,
+        35,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        3
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 26,
+    "min_peak": 2,
+    "name": "Quarter Ton",
+    "random_rate": 0.54,
+    "robust": true,
+    "ships": [
+      0,
+      3,
+      4,
+      2,
+      2,
+      0,
+      1,
+      3,
+      4,
+      1
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      2,
+      3,
+      5,
+      4,
+      4,
+      5,
+      2,
+      2,
+      2,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      4,
+      4,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        1,
+        2,
+        3,
+        16,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        20,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        4
+      ],
+      [
+        19,
+        20,
+        35,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        4,
+        20,
+        0,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 27,
+    "min_peak": 2,
+    "name": "Full Manifest",
+    "random_rate": 0.56,
+    "ships": [
+      1,
+      4,
+      4,
+      2,
+      3,
+      0,
+      1,
+      0,
+      2,
+      3
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      2,
+      5,
+      5,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      2,
+      5,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        2,
+        4,
+        2,
+        4,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        4
+      ],
+      [
+        3,
+        4,
+        2,
+        34,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        4,
+        4,
+        0
+      ],
+      [
+        2,
+        0,
+        3,
+        3,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 28,
+    "min_peak": 2,
+    "name": "Locked Down",
+    "random_rate": 0.18,
+    "robust": true,
+    "ships": [
+      2,
+      0,
+      4,
+      3,
+      1,
+      3,
+      0,
+      2,
+      4,
+      1
+    ],
+    "solution": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      3,
+      5,
+      5,
+      2,
+      1,
+      2,
+      2,
+      0,
+      5,
+      3,
+      3,
+      5
+    ],
+    "stacks": [
+      [
+        1,
+        4,
+        18,
+        2,
+        4
+      ],
+      [
+        532,
+        19,
+        3,
+        1
+      ],
+      [
+        3,
+        516,
+        18,
+        0,
+        4
+      ],
+      [
+        3,
+        20,
+        0,
+        2,
+        1,
+        2
+      ],
+      [
+        19,
+        0,
+        0,
+        18,
+        0,
+        33
+      ],
+      [
+        3,
+        1,
+        0,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 29,
+    "min_peak": 2,
+    "name": "Storm Season",
+    "random_rate": 0.31,
+    "ships": [
+      2,
+      0,
+      2,
+      1,
+      3,
+      4,
+      4,
+      3,
+      0,
+      1
+    ],
+    "solution": [
+      1,
+      2,
+      2,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      2,
+      3,
+      1,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        3,
+        3,
+        0,
+        3
+      ],
+      [
+        1,
+        36,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        4,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        4,
+        1,
+        2
+      ],
+      [
+        4,
+        2,
+        4,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 30,
+    "min_peak": 2,
+    "name": "Port Legend",
+    "random_rate": 0.21,
+    "robust": true,
+    "ships": [
+      4,
+      0,
+      2,
+      3,
+      1,
+      2,
+      1,
+      3,
+      4,
+      0
+    ],
+    "solution": [
+      1,
+      4,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      5,
+      3,
+      3,
+      3,
+      3,
+      4,
+      1,
+      1,
+      2,
+      2,
+      4,
+      4,
+      5,
+      5,
+      4,
+      3,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        4,
+        2,
+        1,
+        4,
+        1
+      ],
+      [
+        18,
+        516,
+        3,
+        4
+      ],
+      [
+        2,
+        512,
+        16,
+        18,
+        3
+      ],
+      [
+        272,
+        1,
+        2,
+        2,
+        1
+      ],
+      [
+        4,
+        4,
+        3,
+        35,
+        17,
+        0
+      ],
+      [
+        1,
+        19,
+        16,
+        19,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 31,
+    "min_peak": 4,
+    "name": "Gold Coast",
+    "random_rate": 0.36,
+    "ships": [
+      0,
+      2,
+      1,
+      2,
+      1,
+      0,
+      3,
+      3
+    ],
+    "solution": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3,
+      4,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      3,
+      3,
+      0,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        0,
+        34,
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        1,
+        0,
+        32
+      ],
+      [
+        32,
+        2,
+        3,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        1,
+        0,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 32,
+    "min_peak": 2,
+    "name": "Treasure Bay",
+    "random_rate": 0.43,
+    "ships": [
+      3,
+      1,
+      0,
+      1,
+      2,
+      2,
+      0,
+      3
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      0,
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      2,
+      4,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        32,
+        0,
+        3
+      ],
+      [
+        2,
+        32,
+        3,
+        3
+      ],
+      [
+        3,
+        1,
+        0,
+        34,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        33,
+        2,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 33,
+    "min_peak": 2,
+    "name": "Bright Cargo",
+    "random_rate": 0.41,
+    "ships": [
+      1,
+      3,
+      0,
+      1,
+      3,
+      0,
+      2,
+      2
+    ],
+    "solution": [
+      1,
+      2,
+      2,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      0,
+      4,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        32,
+        3,
+        1,
+        32
+      ],
+      [
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        35
+      ],
+      [
+        35,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        32,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 34,
+    "min_peak": 2,
+    "name": "Lucky Berth",
+    "random_rate": 0.24,
+    "ships": [
+      0,
+      2,
+      2,
+      3,
+      1,
+      3,
+      0,
+      1
+    ],
+    "solution": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      4,
+      0,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      0,
+      2,
+      0,
+      0
+    ],
+    "stacks": [
+      [
+        2,
+        0,
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        2,
+        35,
+        1
+      ],
+      [
+        2,
+        3,
+        3,
+        32,
+        3
+      ],
+      [
+        35,
+        1,
+        2,
+        1,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 35,
+    "min_peak": 2,
+    "name": "Shiny Load",
+    "random_rate": 0.53,
+    "ships": [
+      1,
+      3,
+      3,
+      0,
+      2,
+      1,
+      0,
+      2
+    ],
+    "solution": [
+      2,
+      3,
+      3,
+      0,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        1,
+        2,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        32,
+        32
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        33,
+        3
+      ],
+      [
+        2,
+        0,
+        34,
+        1,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 36,
+    "min_peak": 2,
+    "name": "Coin Toss",
+    "random_rate": 0.49,
+    "ships": [
+      4,
+      0,
+      3,
+      0,
+      2,
+      1,
+      3,
+      1,
+      4,
+      2
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      4,
+      2,
+      5,
+      5,
+      0,
+      0,
+      1,
+      1,
+      4,
+      2,
+      2,
+      4,
+      4,
+      5,
+      5,
+      5,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        1,
+        1,
+        4,
+        4
+      ],
+      [
+        35,
+        1,
+        3,
+        3,
+        3,
+        4
+      ],
+      [
+        32,
+        2,
+        4,
+        1,
+        34
+      ],
+      [
+        1,
+        2,
+        36,
+        0,
+        0
+      ],
+      [
+        4,
+        3,
+        2,
+        3,
+        0
+      ],
+      [
+        0,
+        32,
+        1,
+        2,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 37,
+    "min_peak": 2,
+    "name": "Gilded Crane",
+    "random_rate": 0.54,
+    "ships": [
+      3,
+      2,
+      4,
+      3,
+      1,
+      4,
+      0,
+      0,
+      1,
+      2
+    ],
+    "solution": [
+      2,
+      2,
+      2,
+      3,
+      0,
+      3,
+      3,
+      3,
+      0,
+      0,
+      5,
+      5,
+      1,
+      5,
+      1,
+      1,
+      1,
+      4,
+      4,
+      2,
+      3,
+      5,
+      5,
+      4,
+      4,
+      4,
+      0,
+      5,
+      2,
+      4
+    ],
+    "stacks": [
+      [
+        1,
+        4,
+        1,
+        4
+      ],
+      [
+        0,
+        3,
+        34,
+        1
+      ],
+      [
+        1,
+        0,
+        34,
+        3,
+        2
+      ],
+      [
+        0,
+        4,
+        4,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        36,
+        2
+      ],
+      [
+        2,
+        3,
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 38,
+    "min_peak": 3,
+    "name": "Sun Deck",
+    "random_rate": 0.23,
+    "ships": [
+      4,
+      3,
+      1,
+      4,
+      2,
+      0,
+      1,
+      3,
+      2,
+      0
+    ],
+    "solution": [
+      3,
+      4,
+      5,
+      0,
+      0,
+      0,
+      1,
+      5,
+      1,
+      1,
+      1,
+      4,
+      4,
+      0,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      5,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        2,
+        4,
+        32,
+        2
+      ],
+      [
+        1,
+        0,
+        1,
+        3,
+        0,
+        1
+      ],
+      [
+        4,
+        3,
+        1,
+        1,
+        2
+      ],
+      [
+        4,
+        4,
+        0,
+        2,
+        4
+      ],
+      [
+        3,
+        2,
+        3,
+        0,
+        35
+      ],
+      [
+        34,
+        3,
+        32,
+        1,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 39,
+    "min_peak": 2,
+    "name": "Golden Hour",
+    "random_rate": 0.41,
+    "ships": [
+      2,
+      0,
+      3,
+      1,
+      3,
+      2,
+      1,
+      0,
+      4,
+      4
+    ],
+    "solution": [
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      5,
+      0,
+      0,
+      2,
+      2,
+      4,
+      1,
+      2,
+      2,
+      1,
+      3,
+      3,
+      3,
+      1,
+      1,
+      3,
+      3,
+      1,
+      4,
+      2,
+      4,
+      4,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        3,
+        3,
+        0,
+        2
+      ],
+      [
+        4,
+        3,
+        1,
+        0,
+        36
+      ],
+      [
+        4,
+        3,
+        2,
+        1,
+        1
+      ],
+      [
+        33,
+        3,
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        0,
+        0,
+        33,
+        1
+      ],
+      [
+        36,
+        32,
+        2,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 40,
+    "min_peak": 2,
+    "name": "Pirate's Pay",
+    "random_rate": 0.26,
+    "ships": [
+      1,
+      4,
+      1,
+      0,
+      3,
+      0,
+      4,
+      2,
+      3,
+      2
+    ],
+    "solution": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      0,
+      4,
+      0,
+      0,
+      2,
+      2,
+      2,
+      5,
+      2,
+      5,
+      0,
+      1,
+      1,
+      1,
+      5,
+      5,
+      3,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        4,
+        35,
+        2,
+        0
+      ],
+      [
+        2,
+        32,
+        4,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        3,
+        4
+      ],
+      [
+        2,
+        2,
+        0,
+        35,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        4,
+        4,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        1,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 41,
+    "min_peak": 3,
+    "name": "Fog Bank",
+    "random_rate": 0.51,
+    "robust": true,
+    "ships": [
+      0,
+      3,
+      0,
+      2,
+      3,
+      1,
+      2,
+      1
+    ],
+    "solution": [
+      1,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      2,
+      3,
+      0,
+      1,
+      3
+    ],
+    "stacks": [
+      [
+        17,
+        1,
+        0,
+        1,
+        16,
+        34
+      ],
+      [
+        17,
+        0,
+        17,
+        3
+      ],
+      [
+        18,
+        2,
+        0,
+        2,
+        3
+      ],
+      [
+        16,
+        2,
+        19,
+        3
+      ],
+      [
+        19,
+        0,
+        17,
+        2,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 42,
+    "min_peak": 2,
+    "name": "Grey Morning",
+    "random_rate": 0.5,
+    "robust": true,
+    "ships": [
+      1,
+      3,
+      3,
+      2,
+      0,
+      0,
+      2,
+      1
+    ],
+    "solution": [
+      1,
+      1,
+      3,
+      0,
+      0,
+      1,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      3,
+      4,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        3,
+        0,
+        18,
+        17,
+        2
+      ],
+      [
+        19,
+        1,
+        2,
+        3,
+        1
+      ],
+      [
+        33,
+        1,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        16,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 43,
+    "min_peak": 3,
+    "name": "Hidden Hold",
+    "random_rate": 0.18,
+    "robust": true,
+    "ships": [
+      2,
+      3,
+      0,
+      0,
+      2,
+      1,
+      1,
+      3
+    ],
+    "solution": [
+      2,
+      3,
+      4,
+      4,
+      4,
+      1,
+      1,
+      4,
+      4,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      0,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        1,
+        16,
+        18,
+        1
+      ],
+      [
+        2,
+        0,
+        19,
+        16,
+        0
+      ],
+      [
+        19,
+        16,
+        33,
+        1,
+        2
+      ],
+      [
+        18,
+        1,
+        17,
+        19,
+        3
+      ],
+      [
+        0,
+        18,
+        3,
+        19,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 44,
+    "min_peak": 3,
+    "name": "Blind Corner",
+    "random_rate": 0.56,
+    "robust": true,
+    "ships": [
+      0,
+      3,
+      1,
+      3,
+      0,
+      2,
+      1,
+      2
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      1,
+      1,
+      1,
+      4
+    ],
+    "stacks": [
+      [
+        18,
+        1,
+        16,
+        0
+      ],
+      [
+        1,
+        3,
+        34,
+        17,
+        0
+      ],
+      [
+        19,
+        3,
+        1,
+        16,
+        2
+      ],
+      [
+        1,
+        19,
+        16,
+        19,
+        2
+      ],
+      [
+        2,
+        16,
+        1,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 45,
+    "min_peak": 2,
+    "name": "Soft Light",
+    "random_rate": 0.74,
+    "ships": [
+      3,
+      2,
+      1,
+      4,
+      0,
+      3,
+      1,
+      4,
+      2,
+      0
+    ],
+    "solution": [
+      0,
+      0,
+      5,
+      5,
+      0,
+      0,
+      0,
+      5,
+      1,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      2,
+      5,
+      5,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        32
+      ],
+      [
+        0,
+        4,
+        4,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        4,
+        2,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        4,
+        1,
+        2,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 46,
+    "min_peak": 2,
+    "name": "Mystery Box",
+    "random_rate": 0.46,
+    "robust": true,
+    "ships": [
+      1,
+      3,
+      3,
+      2,
+      4,
+      0,
+      4,
+      2,
+      0,
+      1
+    ],
+    "solution": [
+      3,
+      5,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      3,
+      1,
+      1,
+      1,
+      3,
+      3,
+      4,
+      5,
+      4,
+      4,
+      4,
+      3,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        3,
+        1,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        20,
+        16,
+        16,
+        4,
+        4
+      ],
+      [
+        3,
+        3,
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        2,
+        2,
+        4,
+        3
+      ],
+      [
+        17,
+        16,
+        2,
+        16,
+        4
+      ],
+      [
+        16,
+        2,
+        4,
+        33
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 47,
+    "min_peak": 2,
+    "name": "Low Cloud",
+    "random_rate": 0.31,
+    "robust": true,
+    "ships": [
+      4,
+      3,
+      2,
+      0,
+      0,
+      4,
+      1,
+      3,
+      1,
+      2
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      0,
+      3,
+      5,
+      0,
+      0,
+      1,
+      1,
+      3,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      1,
+      4,
+      0,
+      5,
+      5,
+      2,
+      4,
+      4,
+      4,
+      5,
+      2,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        20,
+        0,
+        18,
+        19,
+        3
+      ],
+      [
+        17,
+        2,
+        0,
+        3
+      ],
+      [
+        17,
+        18,
+        16,
+        3,
+        1
+      ],
+      [
+        20,
+        0,
+        3,
+        0,
+        4
+      ],
+      [
+        4,
+        20,
+        4,
+        18,
+        17,
+        0
+      ],
+      [
+        34,
+        1,
+        17,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 48,
+    "min_peak": 3,
+    "name": "Foghorn",
+    "random_rate": 0.33,
+    "robust": true,
+    "ships": [
+      0,
+      4,
+      1,
+      2,
+      3,
+      0,
+      3,
+      2,
+      1,
+      4
+    ],
+    "solution": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5,
+      2,
+      5,
+      5,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        4,
+        0,
+        17,
+        3
+      ],
+      [
+        17,
+        0,
+        19,
+        2,
+        4,
+        4
+      ],
+      [
+        17,
+        20,
+        18,
+        19,
+        2
+      ],
+      [
+        16,
+        0,
+        17,
+        18,
+        2
+      ],
+      [
+        20,
+        0,
+        3,
+        3,
+        1
+      ],
+      [
+        17,
+        32,
+        18,
+        20,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 49,
+    "min_peak": 2,
+    "name": "Tarp Town",
+    "random_rate": 0.48,
+    "ships": [
+      1,
+      2,
+      4,
+      1,
+      2,
+      0,
+      3,
+      0,
+      3,
+      4
+    ],
+    "solution": [
+      1,
+      3,
+      5,
+      1,
+      2,
+      3,
+      3,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      2,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      5,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        0,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        35,
+        1,
+        0,
+        4,
+        1
+      ],
+      [
+        4,
+        2,
+        3,
+        0,
+        0,
+        4
+      ],
+      [
+        3,
+        4,
+        2,
+        4,
+        1
+      ],
+      [
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        3,
+        4,
+        1,
+        2,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 50,
+    "min_peak": 2,
+    "name": "Clear Skies",
+    "random_rate": 0.25,
+    "robust": true,
+    "ships": [
+      3,
+      1,
+      3,
+      0,
+      2,
+      1,
+      4,
+      2,
+      4,
+      0
+    ],
+    "solution": [
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      2,
+      4,
+      5,
+      1,
+      1,
+      5,
+      5,
+      5,
+      2,
+      3,
+      4,
+      2,
+      2,
+      4,
+      5,
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        19,
+        19,
+        2,
+        2,
+        35
+      ],
+      [
+        4,
+        17,
+        0,
+        3,
+        2
+      ],
+      [
+        20,
+        4,
+        4,
+        0,
+        1
+      ],
+      [
+        2,
+        17,
+        17,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        3,
+        20,
+        4,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 51,
+    "min_peak": 3,
+    "name": "Customs Week",
+    "random_rate": 0.35,
+    "ships": [
+      3,
+      1,
+      1,
+      0,
+      4,
+      4,
+      2,
+      3,
+      0,
+      2
+    ],
+    "solution": [
+      2,
+      0,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      3,
+      3,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      3,
+      2,
+      2,
+      4,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        1,
+        4,
+        4,
+        2,
+        0
+      ],
+      [
+        3,
+        32,
+        1,
+        1,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        256,
+        3
+      ],
+      [
+        0,
+        0,
+        4,
+        772
+      ],
+      [
+        3,
+        2,
+        33,
+        4,
+        4
+      ],
+      [
+        2,
+        3,
+        1,
+        1,
+        3,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 52,
+    "min_peak": 2,
+    "name": "Red Tape",
+    "random_rate": 0.2,
+    "ships": [
+      4,
+      3,
+      1,
+      0,
+      1,
+      0,
+      4,
+      3,
+      2,
+      2
+    ],
+    "solution": [
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      3,
+      4,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      5,
+      0,
+      4,
+      4,
+      0,
+      0,
+      0,
+      3,
+      0,
+      2,
+      2,
+      3
+    ],
+    "stacks": [
+      [
+        2,
+        1,
+        2,
+        3,
+        772
+      ],
+      [
+        3,
+        2,
+        4,
+        1,
+        4
+      ],
+      [
+        1,
+        770,
+        0,
+        3
+      ],
+      [
+        258,
+        3,
+        35,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        35,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        4,
+        1,
+        0,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 53,
+    "min_peak": 2,
+    "name": "Stamp Duty",
+    "random_rate": 0.31,
+    "ships": [
+      3,
+      0,
+      2,
+      2,
+      1,
+      4,
+      4,
+      0,
+      1,
+      3
+    ],
+    "solution": [
+      1,
+      1,
+      3,
+      3,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      3,
+      4,
+      5,
+      1,
+      1,
+      3,
+      4,
+      2,
+      4,
+      4,
+      5,
+      5,
+      3,
+      3,
+      5
+    ],
+    "stacks": [
+      [
+        1,
+        1,
+        513,
+        4,
+        3,
+        4
+      ],
+      [
+        4,
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        36
+      ],
+      [
+        2,
+        3,
+        0,
+        4,
+        3,
+        3
+      ],
+      [
+        0,
+        3,
+        32,
+        4
+      ],
+      [
+        2,
+        1,
+        513,
+        770
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 54,
+    "min_peak": 2,
+    "name": "Inspection",
+    "random_rate": 0.38,
+    "ships": [
+      2,
+      0,
+      2,
+      4,
+      1,
+      4,
+      3,
+      0,
+      3,
+      1
+    ],
+    "solution": [
+      3,
+      4,
+      4,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      0,
+      1,
+      2,
+      3,
+      2,
+      5,
+      5,
+      0,
+      3,
+      3,
+      0,
+      0,
+      3,
+      0,
+      4,
+      0,
+      4,
+      3,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        1,
+        0,
+        2,
+        3,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        4,
+        1,
+        2,
+        0,
+        4
+      ],
+      [
+        3,
+        34,
+        4,
+        1,
+        513,
+        32
+      ],
+      [
+        3,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        771,
+        3,
+        770,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 55,
+    "min_peak": 2,
+    "name": "Quiet Desk",
+    "random_rate": 0.56,
+    "ships": [
+      4,
+      3,
+      2,
+      2,
+      1,
+      0,
+      4,
+      0,
+      3,
+      1
+    ],
+    "solution": [
+      0,
+      2,
+      4,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      0,
+      0,
+      1,
+      2,
+      2,
+      4,
+      0,
+      3,
+      4,
+      1,
+      3,
+      3,
+      5,
+      5,
+      2,
+      3,
+      3,
+      4,
+      2,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        0,
+        2,
+        1,
+        35
+      ],
+      [
+        0,
+        4,
+        3,
+        4,
+        0
+      ],
+      [
+        1,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        0,
+        4,
+        2
+      ],
+      [
+        3,
+        2,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        33
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 56,
+    "min_peak": 4,
+    "name": "Bonded Store",
+    "random_rate": 0.33,
+    "ships": [
+      0,
+      3,
+      1,
+      2,
+      0,
+      4,
+      1,
+      2,
+      4,
+      3
+    ],
+    "solution": [
+      2,
+      3,
+      5,
+      5,
+      0,
+      0,
+      2,
+      5,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        514,
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        768,
+        1,
+        0,
+        3,
+        260
+      ],
+      [
+        1,
+        4,
+        2,
+        1,
+        3
+      ],
+      [
+        0,
+        3,
+        4,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        4,
+        4
+      ],
+      [
+        2,
+        34,
+        35,
+        1,
+        3,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 57,
+    "min_peak": 3,
+    "name": "Sealed Cargo",
+    "random_rate": 0.19,
+    "ships": [
+      4,
+      2,
+      0,
+      3,
+      1,
+      1,
+      3,
+      4,
+      2,
+      0
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      3,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      5,
+      5,
+      5,
+      2,
+      4,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        4,
+        2,
+        4,
+        34
+      ],
+      [
+        1,
+        3,
+        2,
+        4,
+        258
+      ],
+      [
+        0,
+        3,
+        3,
+        1,
+        514,
+        0
+      ],
+      [
+        0,
+        256,
+        4,
+        35,
+        1
+      ],
+      [
+        4,
+        512,
+        1,
+        1,
+        1
+      ],
+      [
+        4,
+        2,
+        3,
+        3,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 58,
+    "min_peak": 2,
+    "name": "Key Holder",
+    "random_rate": 0.28,
+    "ships": [
+      1,
+      3,
+      2,
+      0,
+      3,
+      4,
+      4,
+      2,
+      1,
+      0
+    ],
+    "solution": [
+      1,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      5,
+      5,
+      0,
+      0,
+      0,
+      3,
+      3,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      3,
+      3,
+      5,
+      5,
+      4,
+      5,
+      1,
+      4
+    ],
+    "stacks": [
+      [
+        512,
+        2,
+        0,
+        35,
+        4
+      ],
+      [
+        1,
+        258,
+        260,
+        32,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        3,
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        0,
+        4,
+        1,
+        772,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 59,
+    "min_peak": 2,
+    "name": "Free Trade",
+    "random_rate": 0.93,
+    "ships": [
+      0,
+      4,
+      2,
+      1,
+      3,
+      2,
+      0,
+      1,
+      3,
+      4
+    ],
+    "solution": [
+      1,
+      1,
+      4,
+      4,
+      1,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      4,
+      2,
+      2,
+      4,
+      4,
+      0,
+      2,
+      1,
+      1,
+      1,
+      2,
+      4,
+      2,
+      2,
+      5,
+      3,
+      5,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        32,
+        3,
+        4,
+        1
+      ],
+      [
+        0,
+        3,
+        3,
+        34,
+        0,
+        4
+      ],
+      [
+        1,
+        4,
+        1,
+        0,
+        1,
+        3
+      ],
+      [
+        4,
+        2,
+        2,
+        3
+      ],
+      [
+        1,
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        4,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 60,
+    "min_peak": 2,
+    "name": "Clearance",
+    "random_rate": 0.29,
+    "ships": [
+      0,
+      1,
+      4,
+      2,
+      4,
+      3,
+      3,
+      1,
+      0,
+      2
+    ],
+    "solution": [
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      5,
+      5,
+      0,
+      1,
+      5,
+      3,
+      3,
+      3,
+      1,
+      1,
+      2,
+      4,
+      1,
+      3,
+      3,
+      5,
+      5,
+      4,
+      4,
+      4,
+      1,
+      2,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        33,
+        3,
+        4,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        772,
+        2
+      ],
+      [
+        34,
+        772,
+        1,
+        1
+      ],
+      [
+        3,
+        256,
+        2,
+        0,
+        3
+      ],
+      [
+        4,
+        2,
+        1,
+        1,
+        770,
+        259
+      ],
+      [
+        3,
+        1,
+        0,
+        4,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 61,
+    "min_peak": 3,
+    "name": "Rainbow Fleet",
+    "random_rate": 0.5,
+    "ships": [
+      3,
+      1,
+      2,
+      0,
+      5,
+      2,
+      5,
+      4,
+      4,
+      3,
+      0,
+      1
+    ],
+    "solution": [
+      0,
+      3,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      4,
+      0,
+      0,
+      4,
+      5,
+      2,
+      2,
+      3,
+      0,
+      2,
+      2,
+      2,
+      3,
+      0,
+      0,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      2,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        5,
+        4,
+        2,
+        34,
+        0,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        1,
+        4,
+        4
+      ],
+      [
+        0,
+        3,
+        3,
+        2,
+        5,
+        5
+      ],
+      [
+        0,
+        4,
+        1,
+        0,
+        2,
+        5,
+        3
+      ],
+      [
+        5,
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        37,
+        4,
+        3,
+        1,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 62,
+    "min_peak": 2,
+    "name": "Six Flags",
+    "random_rate": 0.34,
+    "ships": [
+      5,
+      0,
+      2,
+      1,
+      3,
+      2,
+      0,
+      4,
+      1,
+      4,
+      5,
+      3
+    ],
+    "solution": [
+      0,
+      2,
+      0,
+      0,
+      2,
+      2,
+      0,
+      3,
+      1,
+      1,
+      3,
+      5,
+      5,
+      0,
+      0,
+      1,
+      2,
+      5,
+      0,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      5,
+      5,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        5,
+        33,
+        3,
+        2,
+        3,
+        4,
+        0
+      ],
+      [
+        4,
+        0,
+        1,
+        3,
+        37,
+        1
+      ],
+      [
+        2,
+        3,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        4,
+        1,
+        4,
+        4,
+        5,
+        2
+      ],
+      [
+        2,
+        2,
+        5,
+        3,
+        1,
+        3
+      ],
+      [
+        4,
+        5,
+        0,
+        5,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 63,
+    "min_peak": 3,
+    "name": "Colour Wheel",
+    "random_rate": 0.26,
+    "ships": [
+      0,
+      2,
+      5,
+      4,
+      3,
+      1,
+      0,
+      5,
+      2,
+      3,
+      1,
+      4
+    ],
+    "solution": [
+      1,
+      2,
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2,
+      5,
+      1,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        4,
+        4,
+        5,
+        2,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        1,
+        1,
+        4,
+        5,
+        3,
+        34
+      ],
+      [
+        0,
+        4,
+        1,
+        5,
+        2
+      ],
+      [
+        5,
+        0,
+        32,
+        4,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        2,
+        5,
+        5,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 64,
+    "min_peak": 3,
+    "name": "Prism",
+    "random_rate": 0.44,
+    "ships": [
+      0,
+      3,
+      2,
+      5,
+      4,
+      0,
+      1,
+      2,
+      1,
+      3,
+      4,
+      5
+    ],
+    "solution": [
+      4,
+      5,
+      0,
+      0,
+      0,
+      2,
+      2,
+      3,
+      3,
+      1,
+      4,
+      0,
+      0,
+      0,
+      2,
+      2,
+      3,
+      1,
+      3,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        4,
+        4,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        2,
+        1,
+        5
+      ],
+      [
+        34,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        5,
+        5,
+        3,
+        0,
+        34,
+        2
+      ],
+      [
+        4,
+        3,
+        3,
+        5,
+        5,
+        0
+      ],
+      [
+        1,
+        3,
+        1,
+        1,
+        3,
+        4,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 65,
+    "min_peak": 2,
+    "name": "Easy Sorting",
+    "random_rate": 0.48,
+    "ships": [
+      5,
+      1,
+      0,
+      4,
+      2,
+      0,
+      3,
+      4,
+      3,
+      1,
+      5,
+      2
+    ],
+    "solution": [
+      3,
+      0,
+      0,
+      0,
+      5,
+      5,
+      5,
+      2,
+      0,
+      4,
+      1,
+      2,
+      5,
+      0,
+      1,
+      1,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      1,
+      2,
+      2,
+      2,
+      5,
+      4,
+      4,
+      2,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        4,
+        0,
+        1,
+        4
+      ],
+      [
+        4,
+        5,
+        1,
+        2,
+        4,
+        2
+      ],
+      [
+        1,
+        3,
+        4,
+        1,
+        3,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        5,
+        2,
+        32,
+        37
+      ],
+      [
+        5,
+        0,
+        3,
+        2,
+        0,
+        4
+      ],
+      [
+        3,
+        3,
+        1,
+        5,
+        5,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 66,
+    "min_peak": 2,
+    "name": "Paint Box",
+    "random_rate": 0.35,
+    "ships": [
+      0,
+      2,
+      4,
+      3,
+      1,
+      5,
+      5,
+      0,
+      2,
+      4,
+      3,
+      1
+    ],
+    "solution": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      2,
+      0,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      4,
+      2,
+      5,
+      5,
+      2,
+      5,
+      5,
+      3,
+      3,
+      3,
+      2,
+      5,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        5,
+        2,
+        1,
+        0,
+        4,
+        4,
+        0
+      ],
+      [
+        5,
+        2,
+        3,
+        0,
+        1
+      ],
+      [
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        4,
+        4,
+        2,
+        5,
+        0
+      ],
+      [
+        0,
+        3,
+        3,
+        5,
+        35,
+        5
+      ],
+      [
+        1,
+        0,
+        2,
+        5,
+        4,
+        36
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 67,
+    "min_peak": 2,
+    "name": "Spectrum",
+    "random_rate": 0.16,
+    "ships": [
+      2,
+      4,
+      0,
+      3,
+      3,
+      5,
+      1,
+      4,
+      0,
+      1,
+      2,
+      5
+    ],
+    "solution": [
+      4,
+      5,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      0,
+      4,
+      4,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      5,
+      5,
+      3,
+      3,
+      3,
+      3,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        3,
+        0,
+        4,
+        36,
+        3,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        37,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        5,
+        5
+      ],
+      [
+        5,
+        2,
+        4,
+        5,
+        4,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        3,
+        0,
+        2
+      ],
+      [
+        4,
+        2,
+        1,
+        1,
+        2,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 68,
+    "min_peak": 3,
+    "name": "Kaleidoscope",
+    "random_rate": 0.16,
+    "ships": [
+      0,
+      1,
+      4,
+      3,
+      5,
+      2,
+      1,
+      5,
+      3,
+      4,
+      0,
+      2
+    ],
+    "solution": [
+      4,
+      4,
+      5,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      5,
+      5,
+      0,
+      2,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      1,
+      3,
+      4,
+      4,
+      5,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        3,
+        2,
+        5,
+        0,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        1,
+        0,
+        1,
+        2,
+        2,
+        4
+      ],
+      [
+        34,
+        3,
+        5,
+        1,
+        5
+      ],
+      [
+        3,
+        1,
+        0,
+        5,
+        5,
+        37
+      ],
+      [
+        2,
+        4,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 6,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 69,
+    "min_peak": 3,
+    "name": "Pastel Day",
+    "random_rate": 0.56,
+    "ships": [
+      2,
+      1,
+      5,
+      4,
+      2,
+      0,
+      3,
+      3,
+      1,
+      5,
+      4,
+      0
+    ],
+    "solution": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      4,
+      2,
+      2,
+      2,
+      0,
+      0,
+      5,
+      5,
+      5,
+      5,
+      3,
+      3,
+      1,
+      3,
+      4,
+      1,
+      1,
+      1,
+      5,
+      5,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        0,
+        3,
+        36,
+        5,
+        2,
+        1,
+        5
+      ],
+      [
+        3,
+        3,
+        0,
+        3,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        5,
+        3,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        0,
+        3,
+        2,
+        4
+      ],
+      [
+        34,
+        5,
+        1,
+        2,
+        4,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 70,
+    "min_peak": 3,
+    "name": "Full Palette",
+    "random_rate": 0.29,
+    "ships": [
+      3,
+      1,
+      2,
+      4,
+      1,
+      5,
+      2,
+      0,
+      5,
+      0,
+      4,
+      3
+    ],
+    "solution": [
+      3,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      4,
+      1,
+      2,
+      1,
+      2,
+      2,
+      5,
+      5,
+      5,
+      3,
+      2,
+      3,
+      3,
+      5,
+      2,
+      5,
+      5,
+      3,
+      4,
+      4,
+      2,
+      4,
+      5
+    ],
+    "stacks": [
+      [
+        2,
+        1,
+        5,
+        1,
+        4,
+        2
+      ],
+      [
+        0,
+        37,
+        1,
+        3,
+        4,
+        2
+      ],
+      [
+        3,
+        0,
+        5,
+        3,
+        0,
+        5
+      ],
+      [
+        0,
+        2,
+        2,
+        0,
+        3
+      ],
+      [
+        5,
+        0,
+        4,
+        36,
+        3,
+        1
+      ],
+      [
+        4,
+        2,
+        3,
+        5,
+        1,
+        1,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 71,
+    "min_peak": 2,
+    "name": "Night Shift",
+    "random_rate": 0.43,
+    "robust": true,
+    "ships": [
+      3,
+      0,
+      3,
+      2,
+      1,
+      1,
+      2,
+      0
+    ],
+    "solution": [
+      1,
+      2,
+      3,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      4,
+      0,
+      3,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        19,
+        17,
+        0,
+        17,
+        1
+      ],
+      [
+        18,
+        16,
+        35,
+        2,
+        3
+      ],
+      [
+        259,
+        19,
+        17,
+        0
+      ],
+      [
+        33,
+        18,
+        272,
+        1,
+        0
+      ],
+      [
+        18,
+        2,
+        19,
+        0,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 72,
+    "min_peak": 2,
+    "name": "Moonrise",
+    "random_rate": 0.25,
+    "robust": true,
+    "ships": [
+      3,
+      4,
+      1,
+      0,
+      4,
+      0,
+      2,
+      2,
+      3,
+      1
+    ],
+    "solution": [
+      1,
+      3,
+      5,
+      0,
+      0,
+      1,
+      4,
+      2,
+      2,
+      3,
+      3,
+      0,
+      1,
+      0,
+      0,
+      1,
+      4,
+      4,
+      4,
+      1,
+      2,
+      2,
+      2,
+      3,
+      5,
+      5,
+      4,
+      5,
+      3,
+      5
+    ],
+    "stacks": [
+      [
+        16,
+        257,
+        20,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        784,
+        17,
+        4
+      ],
+      [
+        36,
+        2,
+        2,
+        3,
+        0
+      ],
+      [
+        4,
+        2,
+        3,
+        0,
+        4
+      ],
+      [
+        35,
+        0,
+        16,
+        1,
+        1
+      ],
+      [
+        3,
+        17,
+        2,
+        2,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 73,
+    "min_peak": 3,
+    "name": "Lamp Light",
+    "random_rate": 0.21,
+    "robust": true,
+    "ships": [
+      2,
+      0,
+      2,
+      3,
+      1,
+      0,
+      1,
+      3
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        33,
+        2,
+        32,
+        0
+      ],
+      [
+        1,
+        512,
+        3,
+        1,
+        0
+      ],
+      [
+        2,
+        0,
+        19,
+        259,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        17,
+        3,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 74,
+    "min_peak": 3,
+    "name": "Graveyard Watch",
+    "random_rate": 0.23,
+    "robust": true,
+    "ships": [
+      1,
+      2,
+      3,
+      4,
+      3,
+      1,
+      0,
+      0,
+      2,
+      4
+    ],
+    "solution": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      5,
+      5,
+      5,
+      1,
+      3,
+      5,
+      2,
+      2,
+      2,
+      3,
+      4,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        19,
+        1,
+        1,
+        32
+      ],
+      [
+        0,
+        3,
+        20,
+        2,
+        4,
+        1
+      ],
+      [
+        2,
+        0,
+        258,
+        515,
+        1
+      ],
+      [
+        4,
+        16,
+        2,
+        3,
+        0
+      ],
+      [
+        20,
+        3,
+        18,
+        4
+      ],
+      [
+        16,
+        2,
+        3,
+        33,
+        1,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 75,
+    "min_peak": 3,
+    "name": "Starry Quay",
+    "random_rate": 0.5,
+    "ships": [
+      0,
+      3,
+      2,
+      2,
+      0,
+      3,
+      1,
+      1
+    ],
+    "solution": [
+      2,
+      2,
+      3,
+      3,
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      4,
+      4,
+      1,
+      3,
+      3,
+      2,
+      2,
+      2,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        2,
+        1,
+        0,
+        33
+      ],
+      [
+        1,
+        3,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        3,
+        1,
+        3,
+        3
+      ],
+      [
+        32,
+        1,
+        0,
+        2,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 76,
+    "min_peak": 3,
+    "name": "Midnight Load",
+    "random_rate": 0.11,
+    "robust": true,
+    "ships": [
+      1,
+      4,
+      2,
+      1,
+      2,
+      0,
+      0,
+      3,
+      4,
+      3
+    ],
+    "solution": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      0,
+      0,
+      1,
+      2,
+      2,
+      5,
+      5,
+      5,
+      5
+    ],
+    "stacks": [
+      [
+        32,
+        3,
+        3,
+        513,
+        2
+      ],
+      [
+        3,
+        2,
+        2,
+        4,
+        1
+      ],
+      [
+        4,
+        3,
+        2,
+        4,
+        4,
+        1
+      ],
+      [
+        16,
+        1,
+        274,
+        34,
+        0,
+        3
+      ],
+      [
+        0,
+        16,
+        17,
+        0
+      ],
+      [
+        4,
+        1,
+        4,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 77,
+    "min_peak": 3,
+    "name": "Owl Patrol",
+    "random_rate": 0.16,
+    "robust": true,
+    "ships": [
+      2,
+      0,
+      3,
+      3,
+      0,
+      1,
+      1,
+      2
+    ],
+    "solution": [
+      1,
+      0,
+      0,
+      4,
+      4,
+      4,
+      4,
+      2,
+      4,
+      0,
+      0,
+      0,
+      4,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        3,
+        2,
+        17,
+        0,
+        3
+      ],
+      [
+        3,
+        515,
+        1,
+        2
+      ],
+      [
+        2,
+        34,
+        17,
+        3
+      ],
+      [
+        1,
+        256,
+        18,
+        16,
+        33
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        3,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 78,
+    "min_peak": 3,
+    "name": "Dark Water",
+    "random_rate": 0.06,
+    "robust": true,
+    "ships": [
+      0,
+      4,
+      1,
+      4,
+      2,
+      1,
+      3,
+      3,
+      2,
+      0
+    ],
+    "solution": [
+      0,
+      1,
+      4,
+      4,
+      0,
+      1,
+      3,
+      3,
+      1,
+      1,
+      4,
+      1,
+      4,
+      0,
+      5,
+      5,
+      5,
+      5,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      5,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        770,
+        19,
+        0
+      ],
+      [
+        4,
+        1,
+        17,
+        3,
+        4
+      ],
+      [
+        33,
+        3,
+        0,
+        0,
+        3
+      ],
+      [
+        2,
+        17,
+        258,
+        4,
+        2
+      ],
+      [
+        17,
+        0,
+        32,
+        1,
+        4,
+        0
+      ],
+      [
+        2,
+        4,
+        20,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 79,
+    "min_peak": 2,
+    "name": "Dawn Break",
+    "random_rate": 0.56,
+    "ships": [
+      2,
+      0,
+      1,
+      2,
+      1,
+      0,
+      3,
+      3
+    ],
+    "solution": [
+      0,
+      1,
+      3,
+      1,
+      1,
+      2,
+      3,
+      3,
+      4,
+      4,
+      0,
+      0,
+      0,
+      4,
+      4,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      2,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        1,
+        0,
+        2,
+        0,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        1,
+        34
+      ],
+      [
+        0,
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        2
+      ],
+      [
+        3,
+        2,
+        35,
+        2,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 80,
+    "min_peak": 3,
+    "name": "Night Cap",
+    "random_rate": 0.16,
+    "robust": true,
+    "ships": [
+      3,
+      0,
+      4,
+      4,
+      2,
+      3,
+      0,
+      1,
+      2,
+      1
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      0,
+      5,
+      3,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      5,
+      3,
+      3,
+      2,
+      5,
+      5,
+      4,
+      4,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        516,
+        3,
+        16,
+        3,
+        0
+      ],
+      [
+        19,
+        4,
+        4,
+        4,
+        1
+      ],
+      [
+        1,
+        17,
+        0,
+        34,
+        2
+      ],
+      [
+        4,
+        2,
+        3,
+        2,
+        1,
+        4
+      ],
+      [
+        1,
+        1,
+        3,
+        34,
+        2
+      ],
+      [
+        16,
+        0,
+        515,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 81,
+    "min_peak": 4,
+    "name": "Long Haul",
+    "random_rate": 0.19,
+    "ships": [
+      0,
+      1,
+      0,
+      2,
+      2,
+      1,
+      3,
+      0,
+      1,
+      2,
+      3,
+      3
+    ],
+    "solution": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      3,
+      0,
+      1,
+      1,
+      3,
+      4,
+      4,
+      4,
+      2,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        3,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        3,
+        2,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        34,
+        1,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      [
+        32,
+        0,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        3,
+        0,
+        0,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 82,
+    "min_peak": 3,
+    "name": "Big Convoy",
+    "random_rate": 0.24,
+    "ships": [
+      1,
+      0,
+      2,
+      3,
+      2,
+      2,
+      1,
+      3,
+      1,
+      3,
+      0,
+      0
+    ],
+    "solution": [
+      3,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      4,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        1,
+        3,
+        1,
+        1,
+        3,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        1,
+        32,
+        0,
+        34
+      ],
+      [
+        0,
+        2,
+        3,
+        0,
+        0,
+        3,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        2,
+        1,
+        3,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        3,
+        2,
+        1,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 83,
+    "min_peak": 3,
+    "name": "Endless Queue",
+    "random_rate": 0.35,
+    "ships": [
+      1,
+      0,
+      1,
+      1,
+      3,
+      3,
+      2,
+      0,
+      3,
+      0,
+      2,
+      2
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      3,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      4,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      1,
+      1,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        34,
+        1,
+        1,
+        3,
+        3,
+        3,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        1,
+        3,
+        0,
+        1
+      ],
+      [
+        3,
+        0,
+        34,
+        2,
+        2,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        2,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 84,
+    "min_peak": 3,
+    "name": "Steady Hands",
+    "random_rate": 0.13,
+    "ships": [
+      2,
+      1,
+      2,
+      0,
+      1,
+      0,
+      3,
+      3,
+      3,
+      1,
+      0,
+      2
+    ],
+    "solution": [
+      0,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      3,
+      3,
+      4,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        3,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        3
+      ],
+      [
+        3,
+        1,
+        3,
+        3,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        35,
+        2,
+        0,
+        1
+      ],
+      [
+        1,
+        3,
+        2,
+        3,
+        2,
+        0,
+        32,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 85,
+    "min_peak": 2,
+    "name": "Slow Tide",
+    "random_rate": 0.7,
+    "ships": [
+      2,
+      0,
+      1,
+      1,
+      0,
+      3,
+      3,
+      2,
+      3,
+      2,
+      0,
+      1
+    ],
+    "solution": [
+      0,
+      0,
+      2,
+      3,
+      4,
+      1,
+      1,
+      2,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      4,
+      3,
+      3,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      2,
+      4,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        33,
+        3,
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        33,
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        3,
+        2,
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        0,
+        2,
+        1,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 86,
+    "min_peak": 3,
+    "name": "Heavy Lift",
+    "random_rate": 0.15,
+    "ships": [
+      3,
+      0,
+      3,
+      2,
+      0,
+      2,
+      1,
+      1,
+      2,
+      0,
+      1,
+      3
+    ],
+    "solution": [
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        3,
+        0,
+        2,
+        0,
+        3,
+        1,
+        1
+      ],
+      [
+        2,
+        3,
+        33,
+        1,
+        3,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        32,
+        2,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        3,
+        2,
+        1,
+        0,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 87,
+    "min_peak": 3,
+    "name": "Marathon",
+    "random_rate": 0.2,
+    "ships": [
+      0,
+      3,
+      1,
+      0,
+      3,
+      1,
+      3,
+      2,
+      2,
+      1,
+      2,
+      0
+    ],
+    "solution": [
+      0,
+      0,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      3,
+      3,
+      3,
+      0,
+      3,
+      3,
+      0,
+      0,
+      1,
+      2,
+      2,
+      0,
+      2,
+      2,
+      1,
+      0,
+      1,
+      1
+    ],
+    "stacks": [
+      [
+        0,
+        2,
+        2,
+        0,
+        2,
+        0,
+        3
+      ],
+      [
+        1,
+        0,
+        2,
+        1,
+        1,
+        1,
+        0,
+        3
+      ],
+      [
+        35,
+        2,
+        3,
+        1,
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        34,
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        0,
+        2,
+        1,
+        3,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 88,
+    "min_peak": 3,
+    "name": "Supply Run",
+    "random_rate": 0.06,
+    "ships": [
+      3,
+      2,
+      2,
+      0,
+      2,
+      1,
+      1,
+      0,
+      1,
+      0,
+      3,
+      3
+    ],
+    "solution": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0,
+      0,
+      1,
+      1,
+      1,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        0,
+        0,
+        33,
+        2,
+        34,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        0,
+        3,
+        0,
+        1,
+        0,
+        2
+      ],
+      [
+        3,
+        3,
+        1,
+        0,
+        1,
+        3,
+        1
+      ],
+      [
+        3,
+        0,
+        0,
+        2,
+        3,
+        3,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        3,
+        2,
+        2,
+        1
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 89,
+    "min_peak": 3,
+    "name": "Second Wind",
+    "random_rate": 0.46,
+    "ships": [
+      1,
+      3,
+      0,
+      2,
+      0,
+      2,
+      3,
+      3,
+      0,
+      2,
+      1,
+      1
+    ],
+    "solution": [
+      2,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      4,
+      1,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        2
+      ],
+      [
+        1,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        0,
+        0,
+        32,
+        2,
+        1
+      ],
+      [
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        34,
+        1,
+        1,
+        2,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 4,
+    "id": 90,
+    "min_peak": 3,
+    "name": "Final Leg",
+    "random_rate": 0.08,
+    "ships": [
+      0,
+      1,
+      0,
+      2,
+      0,
+      3,
+      2,
+      3,
+      1,
+      3,
+      2,
+      1
+    ],
+    "solution": [
+      0,
+      3,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      4,
+      4,
+      4,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      2
+    ],
+    "stacks": [
+      [
+        2,
+        2,
+        1,
+        3,
+        34,
+        2,
+        1
+      ],
+      [
+        2,
+        1,
+        2,
+        1,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        32,
+        0,
+        1,
+        0,
+        3,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 91,
+    "min_peak": 3,
+    "name": "Master Class",
+    "random_rate": 0.21,
+    "robust": true,
+    "ships": [
+      0,
+      2,
+      3,
+      4,
+      3,
+      1,
+      2,
+      0,
+      1,
+      5,
+      5,
+      4
+    ],
+    "solution": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      4,
+      5,
+      0,
+      0,
+      0,
+      1,
+      2,
+      3,
+      0,
+      3,
+      4,
+      1,
+      0,
+      1,
+      1,
+      3,
+      3,
+      3,
+      0,
+      0,
+      3,
+      4,
+      4,
+      5,
+      5,
+      2,
+      5,
+      5,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        32,
+        0,
+        20,
+        3,
+        19,
+        1,
+        1
+      ],
+      [
+        2,
+        5,
+        18,
+        20,
+        2,
+        2
+      ],
+      [
+        5,
+        4,
+        16,
+        0,
+        34
+      ],
+      [
+        3,
+        18,
+        5,
+        0,
+        32,
+        4
+      ],
+      [
+        5,
+        4,
+        20,
+        1,
+        17,
+        1,
+        3
+      ],
+      [
+        17,
+        5,
+        3,
+        5,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 92,
+    "min_peak": 3,
+    "name": "Iron Nerves",
+    "random_rate": 0.16,
+    "ships": [
+      4,
+      1,
+      1,
+      2,
+      0,
+      3,
+      0,
+      4,
+      2,
+      3
+    ],
+    "solution": [
+      0,
+      1,
+      1,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      3,
+      3,
+      4,
+      5,
+      1,
+      1,
+      4,
+      4,
+      5,
+      0,
+      0,
+      5,
+      5,
+      0,
+      3,
+      5,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        3,
+        512,
+        770,
+        3,
+        4
+      ],
+      [
+        1,
+        35,
+        1,
+        1
+      ],
+      [
+        4,
+        1,
+        2,
+        34,
+        0,
+        4
+      ],
+      [
+        2,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        4,
+        0,
+        4,
+        0,
+        1
+      ],
+      [
+        35,
+        4,
+        2,
+        0,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 93,
+    "min_peak": 3,
+    "name": "Grand Berth",
+    "random_rate": 0.19,
+    "robust": true,
+    "ships": [
+      0,
+      3,
+      2,
+      2,
+      4,
+      3,
+      0,
+      4,
+      1,
+      1
+    ],
+    "solution": [
+      0,
+      2,
+      3,
+      4,
+      0,
+      1,
+      1,
+      1,
+      2,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      1,
+      1,
+      5,
+      0,
+      0,
+      5,
+      5,
+      2,
+      2,
+      3,
+      3,
+      0,
+      2,
+      3,
+      3
+    ],
+    "stacks": [
+      [
+        1,
+        0,
+        16,
+        4,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        17,
+        2
+      ],
+      [
+        1,
+        20,
+        33,
+        34,
+        0
+      ],
+      [
+        2,
+        1,
+        4,
+        17,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        16,
+        4,
+        35
+      ],
+      [
+        4,
+        16,
+        3,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 94,
+    "min_peak": 3,
+    "name": "No Room",
+    "random_rate": 0.09,
+    "ships": [
+      1,
+      2,
+      0,
+      5,
+      3,
+      1,
+      5,
+      2,
+      4,
+      4,
+      3,
+      0
+    ],
+    "solution": [
+      1,
+      2,
+      5,
+      0,
+      0,
+      0,
+      0,
+      1,
+      3,
+      2,
+      2,
+      2,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      0,
+      2,
+      2,
+      3,
+      5,
+      0,
+      0,
+      3,
+      5,
+      5,
+      5,
+      3,
+      5
+    ],
+    "stacks": [
+      [
+        3,
+        3,
+        2,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        5,
+        36,
+        35,
+        256,
+        2
+      ],
+      [
+        33,
+        2,
+        5,
+        5,
+        5,
+        1
+      ],
+      [
+        512,
+        0,
+        4,
+        1,
+        3,
+        0
+      ],
+      [
+        5,
+        4,
+        1,
+        5,
+        2,
+        3
+      ],
+      [
+        4,
+        3,
+        1,
+        0,
+        4,
+        2
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 95,
+    "min_peak": 3,
+    "name": "High Stakes",
+    "random_rate": 0.56,
+    "ships": [
+      4,
+      1,
+      2,
+      0,
+      1,
+      4,
+      2,
+      3,
+      3,
+      0
+    ],
+    "solution": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      1,
+      2,
+      0,
+      0,
+      3,
+      3,
+      0,
+      0,
+      2,
+      2,
+      0,
+      4,
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        2,
+        0,
+        1,
+        4,
+        0
+      ],
+      [
+        3,
+        32,
+        3,
+        2,
+        1
+      ],
+      [
+        4,
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        1,
+        4,
+        4
+      ],
+      [
+        35,
+        2,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        4,
+        2,
+        35,
+        4,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 96,
+    "min_peak": 3,
+    "name": "Last Light",
+    "random_rate": 0.14,
+    "ships": [
+      3,
+      2,
+      1,
+      4,
+      4,
+      2,
+      1,
+      0,
+      3,
+      0
+    ],
+    "solution": [
+      0,
+      0,
+      5,
+      5,
+      5,
+      5,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      5,
+      1,
+      2,
+      2,
+      2,
+      4,
+      5,
+      1,
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "stacks": [
+      [
+        1,
+        4,
+        1,
+        0
+      ],
+      [
+        2,
+        32,
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        4,
+        0,
+        3,
+        4,
+        33
+      ],
+      [
+        257,
+        0,
+        3,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        0,
+        514
+      ],
+      [
+        1,
+        4,
+        2,
+        34,
+        2,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 97,
+    "min_peak": 3,
+    "name": "Perfect Storm",
+    "random_rate": 0.18,
+    "robust": true,
+    "ships": [
+      4,
+      5,
+      2,
+      1,
+      0,
+      3,
+      3,
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "solution": [
+      0,
+      3,
+      3,
+      4,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      5,
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      3,
+      4,
+      4,
+      2,
+      3,
+      3,
+      4
+    ],
+    "stacks": [
+      [
+        1,
+        20,
+        0,
+        5,
+        32,
+        1,
+        4
+      ],
+      [
+        16,
+        17,
+        2,
+        18,
+        0
+      ],
+      [
+        4,
+        36,
+        35,
+        17,
+        0,
+        3
+      ],
+      [
+        1,
+        20,
+        2,
+        0,
+        5,
+        5
+      ],
+      [
+        1,
+        2,
+        5,
+        18,
+        20,
+        5
+      ],
+      [
+        3,
+        19,
+        2,
+        19,
+        5,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 4,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 98,
+    "min_peak": 3,
+    "name": "Title Fight",
+    "random_rate": 0.04,
+    "ships": [
+      2,
+      0,
+      4,
+      4,
+      3,
+      0,
+      3,
+      2,
+      1,
+      1
+    ],
+    "solution": [
+      0,
+      2,
+      3,
+      4,
+      4,
+      0,
+      0,
+      0,
+      2,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      4,
+      1,
+      3,
+      3,
+      1,
+      1,
+      1,
+      2,
+      3,
+      3,
+      1,
+      1,
+      2,
+      2
+    ],
+    "stacks": [
+      [
+        4,
+        2,
+        1,
+        34
+      ],
+      [
+        0,
+        1,
+        3,
+        3,
+        35,
+        1
+      ],
+      [
+        1,
+        257,
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        2,
+        4,
+        1,
+        0
+      ],
+      [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        35,
+        516,
+        4,
+        4,
+        0
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 5,
+    "id": 99,
+    "min_peak": 2,
+    "name": "Crown Jewel",
+    "random_rate": 0.78,
+    "ships": [
+      4,
+      1,
+      2,
+      0,
+      3,
+      0,
+      2,
+      3,
+      4,
+      1
+    ],
+    "solution": [
+      0,
+      2,
+      2,
+      3,
+      0,
+      2,
+      3,
+      3,
+      0,
+      2,
+      3,
+      1,
+      1,
+      3,
+      0,
+      4,
+      4,
+      4,
+      4,
+      0,
+      5,
+      5,
+      5,
+      4,
+      5,
+      5,
+      1,
+      3,
+      1,
+      1
+    ],
+    "stacks": [
+      [
+        1,
+        2,
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        4,
+        1,
+        33,
+        3
+      ],
+      [
+        0,
+        2,
+        33,
+        4
+      ],
+      [
+        1,
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      [
+        3,
+        3,
+        2,
+        0,
+        36
+      ],
+      [
+        3,
+        3,
+        2,
+        0,
+        4
+      ]
+    ],
+    "stars": {
+      "three": 3,
+      "two": 4
+    }
+  },
+  {
+    "berths": 2,
+    "buffer": 5,
+    "cap": 3,
+    "chain_possible": true,
+    "colors": 6,
+    "id": 100,
+    "min_peak": 3,
+    "name": "Legend",
+    "random_rate": 0.01,
+    "ships": [
+      3,
+      5,
+      0,
+      2,
+      0,
+      1,
+      4,
+      3,
+      4,
+      1,
+      2,
+      5
+    ],
+    "solution": [
+      1,
+      4,
+      5,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      2,
+      4,
+      3,
+      4,
+      4,
+      5,
+      5,
+      2,
+      3,
+      3,
+      0,
+      3,
+      3,
+      3,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "stacks": [
+      [
+        1,
+        0,
+        5,
+        1,
+        517
+      ],
+      [
+        34,
+        2,
+        4,
+        3,
+        1,
+        37
+      ],
+      [
+        4,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        1,
+        0,
+        4,
+        2
+      ],
+      [
+        0,
+        2,
+        259,
+        5,
+        1,
+        4,
+        5
+      ],
+      [
+        4,
+        3,
+        4,
+        5,
+        2,
+        32,
+        3
+      ]
+    ],
+    "stars": {
+      "three": 4,
+      "two": 5
+    }
+  }
+]
